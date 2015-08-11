@@ -150,7 +150,7 @@ html {
 .block01 .text-box {
   margin: 0 50px;
   padding: 50px 70px;
-  background: #ffffff url("../img/green.png") 750px 390px no-repeat;
+  background: #ffffff url("../img/green.png") 750px 310px no-repeat;
   -webkit-box-shadow: 0px 7px 24px 0px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 0px 7px 24px 0px rgba(0, 0, 0, 0.75);
   box-shadow: 0px 7px 24px 0px rgba(0, 0, 0, 0.75);
@@ -438,13 +438,18 @@ html {
 .block06 h2 {
   margin-bottom: 50px;
 }
+.block06 ul {
+  font-size: 0;
+  text-align: center;
+}
 .block06 li {
-  float: left;
   width: 240px;
   padding: 0 10px;
+  display: inline-block;
 }
 .block07 {
   padding-top: 70px;
+  padding-bottom: 30px;
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e4f6ff+0,f8f8f8+100 */
   background: #e4f6ff;
   /* Old browsers */
@@ -471,7 +476,8 @@ html {
 .block07 .reply li {
   float: left;
   width: 50%;
-  margin-bottom: 90px;
+  height: 320px;
+  margin-bottom: 40px;
 }
 .block07 .reply .reply-author {
   font-size: 20px;
